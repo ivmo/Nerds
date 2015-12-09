@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+  <title>Catalog</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="center">
+    <div class="header clearfix">
+    <a class="logo" href="index.html"><img src="img/logo.png" width="139px" height="56px" alt="Nerd's"></a>
+    <nav class="main-menu">
+    <ul>
+      <li><a href="#">студия</a></li>
+      <li><a href="#">клиенты</a></li>
+      <li><a class="active" href="catalog.html">магазин</a></li>
+      <li><a href="#">контакты</a></li>
+      <li><a class="cart" href="#">корзина</a></li>
+    </ul>
+    </nav>
+    </div>
+    <h1>Добро пожаловать в магазин готовых макетов</h1>
+  </div>
+  </header>
+
+  <div class="center clearfix">
+    <aside class="filter">
+      <form action="/echo" method="post">
+      <h2>Стоимость</h2>
+        <div class="filter-range">
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="toggle toggle-min"></div>
+            <div class="toggle toggle-max"></div>
+          </div>
+          <div class="price-controls">
+            <label class="min-price">от<input type="text" name="min-price" value="0"></label>
+            <label class="max-price">до<input type="text" name="max-price" value="15000"></label>
+          </div>
+        </div>
+        <div class="filter-item">
+        <h2>Сетка</h2>
+        <input type="radio" name="grid" value="responsive" id="r1">
+        <label for="r1">Адаптивная</label>
+        <input type="radio" name="grid" value="fixed" id="r2" disabled>
+        <label for="r2">Фиксированная</label>
+        <input type="radio" name="grid" value="percent" id="r3">
+        <label for="r3">Резиновая</label>
+        </div>
+        <div class="filter-item">
+        <h2>Особенности</h2>
+        <input type="checkbox" name="slider" id="ch1">
+        <label for="ch1">Слайдер</label>
+        <input type="checkbox" name="advantage" id="ch2">
+        <label for="ch2">Блок преимуществ</label>
+        <input type="checkbox" name="news" id="ch3" disabled>
+        <label for="ch3">Новости</label>
+        <input type="checkbox" name="gallery" id="ch4">
+        <label for="ch4">Галерея</label>
+        <input type="checkbox" name="basket" id="ch5">
+        <label for="ch5">Корзина</label>
+        </div>
+        <a class="btn btn-filter" href="filter.html">показать</a>
+      </form>
+    </aside>
+    <div class="catalog-items">
+      <div class="sorting clearfix">
+        <div class="sorting-title">
+        <ul>
+          <li class="black-text">Сортировать:</li>
+          <li><a  class="sorting-link sorting-active" href="#">По цене</a></li>
+          <li><a class="sorting-link" href="#">По титу</a></li>
+          <li><a class="sorting-link" href="#">По функционалу</a></li>
+        </ul>
+        </div>
+        <div class="sorting-abc">
+          <a class="sorting-btn sorting-abc-active" href="#"><i class="icon-down-dir"></i></a>
+          <a class="sorting-btn" href="#"><i class="icon-up-dir"></i></a>
+        </div>
+      </div>
+
+    <div class="catalog-items-container">
+      <article class="item">
+          <div class="round"></div>
+          <div class="round round2"></div>
+          <div class="round round3"></div>
+          <img src="img/item1.jpg" width="240px" height="240px" alt="aviator">
+            <div class="item-window">
+              <h2>Aviator</h2>
+              <p>Сайт компании</p>
+              <a class="btn" href="#">10000 р.</a>
+            </div>
+      </article>
+
+      <article class="item">
+          <div class="round"></div>
+          <div class="round round2"></div>
+          <div class="round round3"></div>
+          <img src="img/sunset.jpg" width="240px" height="240px" alt="sunset">
+            <div class="item-window">
+              <h2>Sunset</h2>
+              <p>Итернет-магазин с личным кабинетом</p>
+              <a class="btn" href="#">10000 р.</a>
+            </div>
+      </article>
+
+      <article class="item">
+          <div class="round"></div>
+          <div class="round round2"></div>
+          <div class="round round3"></div>
+          <img src="img/forte.jpg" width="240px" height="240px" alt="forte">
+            <div class="item-window">
+              <h2>Forte</h2>
+              <p>Итернет-магазин с личным кабинетом</p>
+              <a class="btn" href="#">10000 р.</a>
+            </div>
+      </article>
+
+      <article class="item">
+          <div class="round"></div>
+          <div class="round round2"></div>
+          <div class="round round3"></div>
+          <img src="img/thai.jpg"  width="240px" height="240px" alt="thai">
+            <div class="item-window">
+              <h2>Thai</h2>
+              <p>Сайт ресторана, с заказом еды онлайн</p>
+              <a class="btn" href="#">10000 р.</a>
+            </div>
+      </article>
+
+      <article class="item">
+          <div class="round"></div>
+          <div class="round round2"></div>
+          <div class="round round3"></div>
+          <img src="img/avenue.jpg" width="240px" height="240px" alt="avenue">
+            <div class="item-window">
+              <h2>Avenue</h2>
+              <p>Итернет-магазин с личным кабинетом</p>
+              <a class="btn" href="#">10000 р.</a>
+            </div>
+      </article>
+
+      <article class="item">
+          <div class="round"></div>
+          <div class="round round2"></div>
+          <div class="round round3"></div>
+          <img src="img/dove.jpg" width="240px" height="240px" alt="dovetail">
+            <div class="item-window">
+              <h2>Dovetail</h2>
+              <p>Итернет-магазин с личным кабинетом</p>
+              <a class="btn" href="#">10000 р.</a>
+            </div>
+      </article>
+  </div>
+    <ul class="pagination">
+      <li class="pagination-number">
+        <a class="btn pagination-link current" href="#">1</a>
+      </li>
+      <li class="pagination-number">
+        <a class="btn pagination-link" href="#">2</a>
+      </li>
+      <li class="pagination-number">
+        <a class="btn pagination-link" href="#">3</a>
+      </li>
+      <li class="pagination-number">
+        <a class="btn pagination-link next" href="#">Следующая</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  <div class="map" id="yandex-map">
+    <section class="feedback">
+      <h2>Nerds design studio</h2>
+      <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p class="phone">тел. +7 (812) 275-75-75</p>
+      <a class="btn feedback-btn" href="/feedback.html">Напишите нам</a>
+    </section>
+  </div>
+  <div class="center">
+  <div class="footer-bottom clearfix">
+  <div class="social">
+    <a class="social-vk icon-vk" href="#"></a>
+    <a class="social-fb icon-facebook" href="#"></a>
+    <a class="social-inst icon-instagramm" href="#"></a>
+  </div>
+  <div class="footer-bottom-text">
+    <h2>Давайте дружить, это выгодно!</h2>
+    <p>Скидка 10% для друзей из социальных сетей.</p>
+  </div>
+</div>
+</div>
+
+</footer>
+<div class="form-container">
+    <form action="/echo" method="post">
+        <div class="form-block">
+            <label for="login">Ваше имя:</label>
+            <input type="text" name="login" id="login">
+        </div>
+        <div class="form-block">
+            <label for="mail">Ваше e-mail:</label>
+            <input type="text" name="mail" id="mail">
+        </div>
+        <label for="textarea">Текст письма:</label>
+        <textarea name="textarea" id="textarea"></textarea>
+        <button class="submit" type="submit">Отправить</button>
+        <button class="reset" type="reset">Отмена</button>
+        <div class="close"></div>
+    </form>
+</div>
+<script src="js/feedback.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=CbNCKCXlQRlF7JCbA1IhHifcKR_9tkxC&width=100%&height=326&id=yandex-map&lang=ru_RU&sourceType=constructor"></script>
+</body>
+</html>
