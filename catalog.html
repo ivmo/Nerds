@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
   <title>Catalog</title>
@@ -10,18 +10,16 @@
 <body>
   <header class="main-header">
     <div class="center">
-    <div class="header clearfix">
-    <a class="logo" href="index.html"><img src="img/logo.png" width="139px" height="56px" alt="Nerd's"></a>
-    <nav class="main-menu">
-    <ul>
-      <li><a href="#">студия</a></li>
-      <li><a href="#">клиенты</a></li>
-      <li><a class="active" href="catalog.html">магазин</a></li>
-      <li><a href="#">контакты</a></li>
-      <li><a class="cart" href="#">корзина</a></li>
-    </ul>
-    </nav>
-    </div>
+      <div class="header clearfix">
+      <a class="logo" href="#"><img src="img/logo.png" width="139px" height="56px" alt="Nerd's"></a>
+      <div class="cart"><a class="cart-link" href="#">корзина</div>
+      <ul class="main-menu">
+        <li><a href="index.html">студия</a></li>
+        <li><a href="#">клиенты</a></li>
+        <li><a class="active" href="catalog.html">магазин</a></li>
+        <li><a href="#">контакты</a></li>
+      </ul>
+      </div>
     <h1>Добро пожаловать в магазин готовых макетов</h1>
   </div>
   </header>
@@ -65,7 +63,7 @@
         <input type="checkbox" name="basket" id="ch5">
         <label for="ch5">Корзина</label>
         </div>
-        <a class="btn btn-filter" href="filter.html">показать</a>
+        <button class="btn btn-filter" >показать</button>
       </form>
     </aside>
     <div class="catalog-items">
@@ -74,7 +72,7 @@
         <ul>
           <li class="black-text">Сортировать:</li>
           <li><a  class="sorting-link sorting-active" href="#">По цене</a></li>
-          <li><a class="sorting-link" href="#">По титу</a></li>
+          <li><a class="sorting-link" href="#">По типу</a></li>
           <li><a class="sorting-link" href="#">По функционалу</a></li>
         </ul>
         </div>
@@ -216,6 +214,6 @@
     </form>
 </div>
 <script src="js/feedback.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=CbNCKCXlQRlF7JCbA1IhHifcKR_9tkxC&width=100%&height=326&id=yandex-map&lang=ru_RU&sourceType=constructor"></script>
+<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=CbNCKCXlQRlF7JCbA1IhHifcKR_9tkxC&width=100%&height=406&id=yandex-map&lang=ru_RU&sourceType=constructor"></script>
 </body>
 </html>
